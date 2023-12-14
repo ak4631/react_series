@@ -1,0 +1,16 @@
+Learnt About React Router
+
+1.How to create it 
+Methods
+createBrowserRouter
+RouterProvider
+Route -> loader,path,element
+
+2.useLoaderData
+
+3.useParams -> How to access data from url and send it
+
+4.How to nest url in url i.e about/akash
+
+5.etc
+	
