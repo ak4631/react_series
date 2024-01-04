@@ -10,9 +10,10 @@ Currently, two official plugins are available:
 # Lessons Learnt
 
 # Steps to Work with Redux ToolKit
-  Step 1: First Create Store File for Redux 
-  ( Its Main Work is to configure store -> Note Store can only be changed by the defined reducers)
-  Step 2: Create Reducers/Slice (functions) for Store
+## -> Step 1: First Create Store File for Redux
+      ( Its Main Work is to configure store -> Note Store can only be changed by the defined reducers)
+      
+## -> Step 2: Create Reducers/Slice (functions) for Store
   -> It has intialState (Object that stores initial state of your data / format)
   -> createSlice ->(We pass Object in createSlice 
    it Contains:
@@ -37,12 +38,12 @@ Currently, two official plugins are available:
       };
    })
 
-      -> Step 3
+## -> Step 3
         export all the reducers indiviually 
         (eg:)
         export const { addTodo, removeTodo, updateTodo, editTodo } = todoSlice.actions;
 
-      -> Step 4
+## -> Step 4
         export reducer for store 
         export default todoSlice.reducer;
 
